@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Fitness Centre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Ayush Fitness Centre_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Ayush Fitness Centre_files/style.css"><style>
+    /* CSS reset */
+    body{
+        font-family: 'Baloo Bhai 2', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 800px 800px;
+        background-position-x: right;
+        background-color: black;
+    }
+    .left{
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+    }
+    .left img{
+        width: 110px;
+    }
+    .left div{
+        line-height: 22px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 22px auto;
+        /*border: 2px solid green;*/
+    }
+    .right{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: inline-bl ock;
+        /*border: 2px solid blue;*/
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        font-size: 19px;
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 15px 8px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhai 2', sans-serif;
+        margin: 0px 5px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(30, 28, 28);
+    }
+    .container{
+        border: 2px solid white;
+        margin: 150px 40px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 8px;
+    }
+    .form-group input{
+        font-family: 'Baloo Bhai 2', sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 19px;
+        border-radius: 8px;
+    }
+    .container h1{
+        color: white;
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin: 15px auto;
+    }
+</style></head>
+
+
+
+
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/download.png" alt="">
+            <div>Ayush Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="http://127.0.0.1:5500/index.html#" class="active">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">Fitness Calculator</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn" fdprocessedid="etv4y6">Get Help</button>
+            <button class="btn" fdprocessedid="hhsmgn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Your City Now</h1>
+        <form action="http://127.0.0.1:5500/noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name" fdprocessedid="2uxage">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age" fdprocessedid="6r09na">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality" fdprocessedid="7ebmxg">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone No." fdprocessedid="yfn5c">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Email Id" fdprocessedid="n27fld">
+            </div>
+            <button class="btn" fdprocessedid="hmnesh">Submit</button>
+        </form>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
